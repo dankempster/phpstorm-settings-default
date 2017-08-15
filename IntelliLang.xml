@@ -1,0 +1,29 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="HTML" injector-id="xml">
+      <display-name>Description</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("Description")).withNamespace(string().matches("urn:ebay:apis:eBLBaseComponents"))]]></place>
+    </injection>
+    <injection language="JSON" injector-id="xml">
+      <display-name>a/@data-fancybox</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("data-fancybox")).withParent(xmlTag().withLocalName(string().equalTo("a")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="JavaScript" injector-id="xml">
+      <display-name>scrtip</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("scrtip")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
+    </injection>
+    <injection language="JSON" injector-id="xml">
+      <display-name>table/@data-fancybox</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("data-fancybox")).withParent(xmlTag().withLocalName(string().equalTo("table")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="JSON" injector-id="xml">
+      <display-name>ul/@data-menu-intent</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("data-menu-intent")).withParent(xmlTag().withLocalName(string().equalTo("ul")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>

@@ -1,0 +1,48 @@
+<code_scheme name="Default (2)">
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
+  <SqlCodeStyleSettings>
+    <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_CREATE_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_BLOCK_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_ARGUMENT_DEFINITION" value="false" />
+    <option name="ALIGN_INSIDE_BINARY_EXPRESSION" value="false" />
+    <option name="ALIGN_INSIDE_QUERY_EXPRESSION" value="false" />
+    <option name="ALIGN_EQ_INSIDE_SET_CLAUSE" value="false" />
+    <option name="WRAP_INSIDE_SELECT" value="2" />
+    <option name="WRAP_INSIDE_JOIN_EXPRESSION" value="5" />
+    <option name="WRAP_INSIDE_GROUP_BY" value="5" />
+    <option name="WRAP_INSIDE_WHERE" value="2" />
+    <option name="WRAP_INSIDE_ORDER_BY" value="2" />
+    <option name="WRAP_INSIDE_SET" value="2" />
+    <option name="WRAP_INSIDE_BINARY_EXPRESSION" value="0" />
+    <option name="WRAP_INSIDE_ARGUMENT_DEFINITION" value="2" />
+    <option name="WRAP_INSIDE_CALL_EXPRESSION" value="0" />
+    <option name="WRAP_INSIDE_VALUES_EXPRESSION" value="2" />
+    <option name="WRAP_VALUES_EXPRESSION" value="2" />
+    <option name="WRAP_PARENTHESIZED_EXPRESSION_INSIDE_VALUES" value="2" />
+  </SqlCodeStyleSettings>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <codeStyleSettings language="PHP">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SCSS">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+  </codeStyleSettings>
+  <codeStyleSettings language="yaml">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>

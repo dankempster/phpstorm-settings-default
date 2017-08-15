@@ -1,0 +1,162 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-cache --update $FileName$:$ProjectFileDir$/application/public_html/compiled/css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .scss files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS" />
+      <option name="output" value="$ProjectFileDir$/application/public_html/compiled/css/$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/.rvm/gems/ruby-2.2.0/bin/scss" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="compile $FileName$ --sourcemaps" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .scss files into .css files using compass" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="compass scss" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/.rvm/gems/ruby-2.2.0/bin/compass" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$ProjectFileDir$/web/compiled/css/*.css.map $ProjectFileDir$/web/css " />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Copies sourcemaps to location browser expects" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="map" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS Sourcemaps" />
+      <option name="output" value="$ProjectFileDir$/web/compiled/css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/bin/cp" />
+      <option name="scopeName" value="Compiled CSS" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="compile --sourcemap --no-debug-info" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .scss files into .css files using compass" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Compass SCSS (with sourcemaps)" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/.rvm/gems/ruby-2.2.0/bin/compass" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FilePath$ $ProjectFileDir$/web/css" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="*" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Copy Sourcemaps to web/css" />
+      <option name="output" value="$ProjectFileDir$/web/compiled/css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="/bin/cp" />
+      <option name="scopeName" value="CSS Sourcemaps" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--map --compile --output application/public_html/compiled/coffee $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .coffee files into .js files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="coffee" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="CoffeeScript" />
+      <option name="output" value="$ProjectFileDir$/application/public_html/compiled/coffee" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="coffee error format" />
+            <option name="name" value="coffee" />
+            <option name="regExp" value="$FILE_PATH$:$LINE$:$COLUMN$: $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="$ProjectFileDir$/application/node_modules/.bin/coffee" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-cache --update $FileName$:$ProjectFileDir$/application/public_html/compiled/css/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .scss files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="App SCSS" />
+      <option name="output" value="$ProjectFileDir$/application/public_html/compiled/css/$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/.rvm/gems/ruby-2.2.0/bin/scss" />
+      <option name="scopeName" value="SASS Watch" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FilePath$ $ProjectFileDir$/application/public_html/css/$FileName$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Moves sourcemap files from public_html/compiled/css to public_html/css" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="map" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Move CSS Sourcemap Files" />
+      <option name="output" value="$ProjectFileDir$/application/public_html/css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="/bin/mv" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/application/public_html/compiled/css" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>
