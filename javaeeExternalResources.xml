@@ -1,6 +1,0 @@
-<application>
-  <component name="ExternalResourceManagerImpl">
-    <resource url="http://schema.org/Rating" location="$USER_HOME$/Library/Caches/PhpStorm2016.1/extResources/1e914de3_Rating.html" />
-    <resource url="http://schema.org/Review" location="$USER_HOME$/Library/Caches/PhpStorm2016.1/extResources/1eca939e_Review.html" />
-  </component>
-</application>
